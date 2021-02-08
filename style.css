@@ -99,7 +99,8 @@ ul li a.active {
 .footer,
 .footer-1,
 .footer-2, 
-.footer-3 {
+.footer-3,
+.follow-grid {
   align-items: center;
 }
 
@@ -564,5 +565,24 @@ ul.footer-3 li a {
   color: #FFFFFF;
   opacity: 1;
 } 
+
+.follow-grid {
+  margin-left: 68px;
+}
+ 
+.follow-grid  p {
+  margin-bottom: 0px;
+}
+
+.follow-grid li a img {
+  margin-left: 22px;
+}
+
+.follow {
+  font: normal normal bold 16px/48px  Condensed;
+  font-family: 'Roboto';
+  letter-spacing: 0.19px;
+  color: #2B3541;
+}
 
 
