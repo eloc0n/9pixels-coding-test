@@ -165,6 +165,14 @@ ul.third-nav li a {
   opacity: 1;
 }
 
+.dropdown-content-sm {
+  width: 1235px;
+}
+
+.dropdown-content-lg {
+  width: 1366px;
+}
+
 .dropdown-content {
   /* display: block; */
   position: absolute;
@@ -176,7 +184,6 @@ ul.third-nav li a {
   background: #EFF1F4 0% 0% no-repeat padding-box;
   margin-top: 16.5px;
   margin-left: -202px;
-  width: 1235px;
   height: 0px;
   opacity: 0;
   transition: all 0.4s ease-out;
