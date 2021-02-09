@@ -12,7 +12,7 @@ html {
 
 .main-container {
   width: 100%;
-  max-width: 1366px;
+  width: 1366px;
   margin: auto;
 }
 
@@ -26,7 +26,7 @@ body {
 
 #header {
   display: flex;
-  width: auto;
+  width: 100%;
   height: 768px;
   background: transparent url('images/Mask Group 67.png') 0% 0% no-repeat padding-box;
 }
@@ -170,7 +170,7 @@ ul.third-nav li a {
 }
 
 .dropdown-content-lg {
-  width: 1366px;
+  width: 1235px;
 }
 
 .dropdown-content {
@@ -285,7 +285,7 @@ h2 {
 
 #products {
   margin-top: 30px;
-  width: 1366px;
+  width: auto;
   height: 1522px;
   background: rgba(236, 237, 239, 0.55) 0% 0% no-repeat padding-box;
   /* opacity: 0.55; */
@@ -382,25 +382,37 @@ h2 {
   transition: 0.7s ease;
 }
 
-.food__hero:hover {
-  opacity: 1;
-  transition: 0.7s ease;
-}
+@media (min-width: 768px) {
+  .food__hero:hover {
+    opacity: 1;
+    transition: 0.7s ease;
+  }
 
-.food__hero-1:hover {
-  background: #004D95 0% 0% no-repeat padding-box;
-}
+  .food__hero-1:hover {
+    background: #004D95 0% 0% no-repeat padding-box;
+  }
 
-.food__hero-2:hover {
-  background: #D7DBE0  0% 0% no-repeat padding-box;
-}
+  .food__hero-2:hover {
+    background: #D7DBE0  0% 0% no-repeat padding-box;
+  }
 
-.food__hero-3:hover {
-  background: #C3363B  0% 0% no-repeat padding-box;
-}
+  .food__hero-3:hover {
+    background: #C3363B  0% 0% no-repeat padding-box;
+  }
 
-.food__hero-4:hover {
-  background: #2B3541  0% 0% no-repeat padding-box;
+  .food__hero-4:hover {
+    background: #2B3541  0% 0% no-repeat padding-box;
+  }
+
+  .food__description:hover {
+    opacity: 1;
+    transition: .6s ease;
+  }
+
+  .food__description-sm {
+    display:none;
+   }
+  
 }
 
 .food__content {
@@ -436,6 +448,7 @@ h2 {
 .food__heading {
   font-size: 20px;
   margin-right: auto;
+  margin-bottom: 40px;
 }
 
 .food__description {
@@ -454,10 +467,6 @@ h2 {
   color: #030303;
 }
 
-.food__description:hover {
-  opacity: 1;
-  transition: .6s ease;
-}
 
 .long-arrow {
   margin-top: 150px;
@@ -525,7 +534,6 @@ h2 {
   width: 98px;
   height: 94px;
   background: #004D95 0% 0% no-repeat padding-box;
-  opacity: 1;
 }
 
 .bottom-third-nav li a {
@@ -606,3 +614,318 @@ ul.footer-3 li a {
 }
 
 
+@media (min-width: 768px) {
+  .footer-1-sm li a {
+    display: none;
+  }
+}
+
+/* MOBILE QUERIES */
+@media (max-width: 375px) {
+
+  .main-container {
+    max-width: 375px;
+  }
+
+  #header {
+    height: 667px;
+    width: 375px;
+    background: transparent url('images/Mask Group 68.png') 0% 0% no-repeat padding-box;
+  }
+  
+  .logo {
+    margin-left: 24px;
+    width: 78px;
+    height: 105px;
+    background: #FAFAFA 0% 0% no-repeat padding-box;
+    box-shadow: 0px 2px 12px #00000008;
+    opacity: 1;
+    z-index: 10;
+  }
+  
+  .logo-img {
+    margin-top: 22px;
+    margin-left: 5px;
+    width: 63px;
+    height: 63px;
+    background: transparent url('images/Ellipse 1 mobile.png') 0% 0% no-repeat padding-box;
+    /* border: 3px solid #D13333; */
+    opacity: 1;
+  }
+
+  .header-top {
+    margin-top: 0px;
+    margin-left: 0px;
+    width: 375px;
+  }
+
+  .first-nav li a,
+  .second-nav li a {
+    display: none;
+  }
+
+  .third-nav {
+    margin-right: 0px;
+    margin-top: 30px;
+    
+    background: 
+    url('images/Rectangle 232.png') 0% 0% repeat-y padding-box, 
+    url('images/Rectangle 232.png') 0% 0% repeat-y padding-box, 
+    url('images/Rectangle 232.png') 0% 0% repeat-y padding-box;
+    background-repeat:no-repeat;
+    background-position:center 0, center 10px,center 20px;
+  }
+
+  h3 {
+    font: italic normal normal 17px/30px Playfair Display;
+    letter-spacing: -0.2px;
+    color: #FFFFFF;
+  }
+  
+  h3.header-h3 {
+    margin-left: 26px;
+    margin-top: -500px;
+  }
+  
+  .horizontal-line {
+    margin-bottom: 6px;
+    margin-right: 6px;
+    width: 12px;
+  }
+  
+  h2 {
+    margin-left: 25px;
+    font: normal normal bold  33px/49px Condensed;
+    font-family: 'Roboto';
+    letter-spacing: 0.4px;
+  }
+  
+  .intro {
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    width: 355px;
+    margin-left: -39px;
+    background: #CA252B 0% 0% no-repeat padding-box;
+  }
+
+  #rotate-text {
+    margin-top: 98.5px;
+    margin-left: 11px;
+    height: 38px;
+    width: 17px;
+    transform: rotate(-90deg);
+  }
+
+  .vertical-line-1 {
+    margin-top: 17px;
+    margin-left: 24px;
+    height: 73px;
+    width: 0px;
+    border: 1px solid #FFFFFF;
+    opacity: 0.5;
+  }
+
+  /* PRODUCTS */
+
+
+  #products {
+    height: 2891px;
+  }
+
+  .bg-img-1 {
+    width: 375px;
+    background: none;
+  }
+
+  .products-intro-1 {
+    margin-top: -590px;
+    margin-left: 21px;
+    font: normal normal bold 53px/55px Condensed;
+    font-family: 'Roboto';
+    letter-spacing: 1.32px;
+    opacity: 0.13;
+  }
+
+  .products-h3 {
+    margin-left: 31px;
+  }
+  
+  .header-h1 {
+    width: 335px;
+    margin-top: 66.5px;
+    margin-left: 28px;
+    font: normal normal bold 26px/34px Condensed;
+    font-family: 'Roboto';
+    letter-spacing: 0.25px;
+    color: rgba(37, 50, 67, 1);
+  }
+  
+  .bg-img-2 {
+    width: 375px;
+    background: none;
+  }
+  
+  
+  /* FOOD CARDS */
+
+  .long-arrow,
+  .long-arrow::after  {
+    display: none;
+  }
+  
+  .food {
+    display: block;
+    margin-bottom: 38px;
+
+  }
+
+  .food__align-odd {
+    margin-left: 30px;
+  }
+
+  .food__align-even {
+    margin-left: 30px;
+  }
+
+  .food__hero {
+    width: 302px;
+    height: 250px;
+    background: transparent url('images/Mask Group 73.png') 0% 0% no-repeat padding-box;
+  }
+  
+  .food__content {
+    width: 302px;
+    height: 275px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+    letter-spacing: 0.38px;
+  }
+
+  .food__description {
+    display: none;
+  }
+
+  .food__description-sm {
+    opacity: 1;
+    overflow: hidden;
+    height: 171px;
+    font: normal normal normal 14px/22px Condensed;
+    font-family: 'Roboto';
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    transition: .6s ease;
+  }
+  
+  .food__description-2-sm {
+    color: #030303;
+  }
+
+
+  /* LINKS */
+
+  .bottom-nav {
+    width: auto;
+    height: 262px;
+  }
+
+  .bottom-first-nav li a {
+    margin-left: 0px;
+    opacity: 1;
+  }
+
+  .bottom-first-nav,
+  .bottom-second-nav {
+    margin-left: 27px;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .bottom-second-nav {
+    margin-left: 60px;
+  }
+
+  .bottom-second-nav .vertical-line {
+    display: none;
+  }
+
+  .bottom-second-nav li a{
+    margin-left: 0px;
+  }
+  
+  .bottom-third-nav,
+  .bottom-third-nav li a  {
+    display: none;
+    width: 0px;
+    height: 0px;
+  }
+
+
+  /* FOOTER */
+
+  .footer {
+    width: 375px;
+    height: 221px;
+  }
+
+  .follow-grid,
+  .footer-2 {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  ul.footer-2,
+  .follow-grid {
+    margin-left: -50px;
+    margin-top: -60px;
+  }
+
+  .follow-grid {
+    margin-left: 140px;
+  }
+
+  .footer-2 .vertical-line {
+    display: none;
+  }
+
+  .footer-1 li a {
+    display:none;
+  }
+
+  .follow {
+    display: none;
+  }
+
+  ul.footer-3 {
+    display: none;
+  }
+
+  .footer-sm {
+    display: flex;
+    align-items: center;
+  }
+
+  .footer-1-sm {
+    margin-left: 25px;
+  }
+
+  .footer-1-sm li a {
+    font: normal normal normal 17px/48px Condensed;
+    font-family: 'Roboto';
+    letter-spacing: 0.2px;
+    color: #2B3541;
+  }
+
+  .footer-3-sm {
+    margin-left: auto;
+    width: 51px;
+    height: 99px;
+    background: #004D95 0% 0% no-repeat padding-box;
+    opacity: 1;
+  }
+
+  .footer-3-sm li a img{
+    margin-left: 22px;
+    margin-top: 25px; 
+ }
+ 
+}
