@@ -10,8 +10,11 @@ html {
 	scroll-behavior: smooth;
 }
 
+html,body {
+  overflow-x: hidden; 
+}
+
 .main-container {
-  width: 100%;
   width: 1366px;
   margin: auto;
 }
@@ -615,6 +618,7 @@ ul.footer-3 li a {
 
 
 @media (min-width: 768px) {
+  .footer-sm,
   .footer-1-sm li a {
     display: none;
   }
@@ -622,6 +626,12 @@ ul.footer-3 li a {
 
 /* MOBILE QUERIES */
 @media (max-width: 375px) {
+
+  .header-top-lg,
+  .dropdown-content-sm,
+  .dropdown-content-lg {
+    display: none;
+  }
 
   .main-container {
     max-width: 375px;
@@ -674,6 +684,10 @@ ul.footer-3 li a {
     url('images/Rectangle 232.png') 0% 0% repeat-y padding-box;
     background-repeat:no-repeat;
     background-position:center 0, center 10px,center 20px;
+  }
+
+  .third-nav li a {
+    display: none;
   }
 
   h3 {
