@@ -51,13 +51,26 @@ body {
   opacity: 1;
 }
 
-.main-nav {
+.header-top {
   margin-top: 33px;
   margin-left: 65px;
-  display: flex;
   width: 1235px;
+  transition: 0.3s ease-in;
+}
+
+.header-top-lg {
+  margin-top: 0px;
+  margin-left: 0px;
+  width: 1366px;
+  transition: 0.3s ease-in;
+}
+
+.main-nav {
+  position: fixed;
+  display: flex;
   height: 81px;
   background: #004D95 0% 0% no-repeat padding-box;
+  z-index: 100;
 }
 
 ul {
