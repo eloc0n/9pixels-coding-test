@@ -172,7 +172,7 @@ ul.third-nav li a {
 }
 
 .dropdown-content-lg {
-  width: 1235px;
+  width: 1366px;
 }
 
 .dropdown-content {
@@ -687,6 +687,23 @@ ul.footer-3 li a {
     width: 1200px;
   }
 
+  .dropdown-content-sm {
+    width: 1060px;
+  }
+  
+  .dropdown-content-lg {
+    width: 1200px;
+  }
+
+  .dropdown-content {
+    margin-left: -152px;
+  
+  }
+
+  div.dropdown-content a.align-left {
+    margin-left: 40px;
+  }
+
   .first-nav{
     margin-left: 15px;
   }
@@ -759,6 +776,19 @@ ul.footer-3 li a {
 
   .header-top-lg {
     width: 1000px;
+  }
+
+  .dropdown-content-sm {
+    width: 860px;
+  }
+  
+  .dropdown-content-lg {
+    width: 1000px;
+  }
+
+  .dropdown-content {
+    margin-left: -147px;
+    margin-top: 21px;
   }
 
   .main-nav ul li a {
