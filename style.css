@@ -650,11 +650,6 @@ ul.footer-3 li a {
     margin-left: 28px;
   }
   
-  .bg-img-2 {
-    width: 375px;
-    background: none;
-  }
-  
   
   /* FOOD CARDS */
 
@@ -714,6 +709,10 @@ ul.footer-3 li a {
 
   .bg-img-1 {
     width: 516px;
+  }
+
+  .bg-img-2 {
+    background: none;
   }
 
   .food__align-odd {
@@ -815,6 +814,8 @@ ul.footer-3 li a {
   .bg-img-1 {
     background: none;
   }
+
+  
 
   .products-intro-1 {
     margin-left: 100px;
@@ -944,10 +945,7 @@ ul.footer-3 li a {
     height: 1891px;
   }
 
-  .bg-img-2 {
-    background: none;
-  }
-
+ 
   .products-intro-1 {
     margin-left: 92px;
     font: normal normal bold 83px/122px Condensed;
